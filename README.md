@@ -27,7 +27,7 @@ This website is useful to anyone who needs a place to write down any thoughts, n
 ## Links
 
 - **GitHub Repository**: [https://github.com/luisa-miller/portfolio-project](https://github.com/luisa-miller/portfolio-project)  
-- **Live Site**: [https://luisa-miller.github.io/portfolio-project/](https://luisa-miller.github.io/portfolio-project/)
+- **Live Site**: [https://luisa-miller.github.io/portfolio-project/]([https://luisa-miller.github.io/portfolio-project/](https://luisa-miller.github.io/portfolio-project/))
 
 ---
 
