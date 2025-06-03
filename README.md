@@ -13,16 +13,16 @@ This site serves as a central hub for my web development work. It highlights the
 ## Featured Projects
 
 ### 1. **To-Do List App**
-A simple task manager built using vanilla JavaScript, allowing users to add, delete, and mark tasks as complete. Highlights include local storage use and interactive UI updates.
+This website can help you remember to complete important tasks, making your day to day life organized and easier. Simply add as many tasks as needed to your list. Some highlights in this project has local storage use and interactive UI updates.
 
 ### 2. **Real Time Digital Clock and Weather App**
-This real time digital clock website can be set as an aesthetic background. This website is also useful to search for a current weather forecast in any city in the world.
+This real time digital clock website can be set as an aesthetic background. This website is also useful to search for a current weather forecast in any city in the world. A highlight in this project includes the time pdating to anytimezone you may be in.
 
 ### 3. **Drum Kit and Tambourine Sound Board**
-This sound board is helpful as you can listen and experience the different sounds of these two instruments. You can either click the buttons or use your keyboard to play the sounds.
+This sound board is helpful as you can listen and experience the different sounds of these two instruments. A highlight in this project includes the sounds playing from pressing the keys on the keyboard or clicking the buttons. 
 
 ### 4. **Journal Entry Website**
-This website is useful to anyone who needs a place to write down any thoughts, notes, or just random things and want to save it in a safe place. It’s great for any use for work, school, or personal.
+This website is useful to anyone who needs a place to write down any thoughts, notes, or just random things and want to save it in a safe place. It’s great for any use for work, school, or personal. A highlight in this project is you'll be able to see the timestamp of saved entries. 
 
 ## Links
 
