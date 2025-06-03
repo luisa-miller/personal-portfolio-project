@@ -13,12 +13,12 @@
   margin: 0;
   padding: 0; 
   font-family: "Quicksand", sans-serif;
+  box-sizing: border-box;
+}
 
-   .container {
+.container {
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(to right, #22577a, #57cc99);
-  padding: 10px; 
   background: linear-gradient(to right, #cad2c5, #84a98c);
   padding: 10px;
 }
@@ -26,9 +26,6 @@
 .todo-app {
   width: 100%;
   max-width: 540px;
-  background: #fff;
-  margin: 100px auto 20px; 
-  padding: 40px 30px 70px; 
   background: #f0f4f0;
   margin: 100px auto 20px;
   padding: 40px 30px 70px;
@@ -37,20 +34,24 @@
 }
 
 .todo-app h2 {
-  color: #22577a;
   color: #2f3e46;
   display: flex;
   align-items: center;
   margin-bottom: 20px;
+}
+
+.todo-app h2 img {
+  width: 30px;
+  margin-left: 10px;
+}
+
+.row {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #edeef0;
-  border-radius: 30px; 
   background: #dce3dc;
   border-radius: 30px;
   padding-left: 20px;
-  margin-bottom: 25px; 
   margin-bottom: 25px;
 }
 
@@ -58,8 +59,6 @@ input {
   flex: 1;
   border: none;
   outline: none;
-  background: transparent; 
-  padding: 10px; 
   background: transparent;
   padding: 10px;
   font-size: 14px;
@@ -70,7 +69,6 @@ button {
   border: none;
   outline: none;
   padding: 16px 50px;
-  background: #22577a;
   background: #52796f;
   color: #fff;
   font-size: 16px;
@@ -85,7 +83,6 @@ button:hover {
 
 ul li {
   list-style: none;
-  font-size: 21px; 
   font-size: 21px;
   padding: 12px 8px 12px 50px;
   user-select: none;
@@ -96,37 +93,33 @@ ul li {
 
 ul li::before {
   content: '';
-  position: absolute; 
   position: absolute;
   height: 28px;
-  width: 28px; 
   width: 28px;
   border-radius: 50%;
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ410-IMCQdVmi6aTQSc_f-7z0YIu-BF620qw&s);
   background-size: cover;
-  background-position: center; 
   background-position: center;
   top: 12px;
   left: 8px;
 }
 
 ul li.checked {
-  color: #555;
   color: #52796f;
   text-decoration: line-through;
 }
+
 ul li.checked::before {
   background-image: url(https://cdn.pixabay.com/photo/2014/04/02/10/12/checkbox-303113_1280.png);
 }
+
 ul li span {
   position: absolute;
   right: 0;
   top: 5px;
   width: 40px;
-  height: 40px; 
   height: 40px;
   font-size: 22px;
-  color: #555;
   color: #2f3e46;
   line-height: 40px;
   text-align: center;
@@ -134,7 +127,6 @@ ul li span {
 }
 
 ul li span:hover {
-  background: #c7f9cc;
   background: #cad2c5;
 }
   </style>
