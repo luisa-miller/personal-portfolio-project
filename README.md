@@ -12,17 +12,17 @@ This site serves as a central hub for my web development work. It highlights the
 
 ## Featured Projects
 
-### 1. **Interactive Quiz App**
-A multiple-choice quiz that provides instant feedback and tracks scores. Built with JavaScript, this project demonstrates DOM manipulation, event handling, and basic data structures.
-
-### 2. **Responsive Landing Page**
-A mobile-first marketing homepage designed with Flexbox and CSS Grid. This project focuses on layout responsiveness and visual design principles.
-
-### 3. **To-Do List Application**
+### 1. **To-Do List App**
 A simple task manager built using vanilla JavaScript, allowing users to add, delete, and mark tasks as complete. Highlights include local storage use and interactive UI updates.
 
-### 4. **Color Scheme Generator**
-An app that generates color palettes using an API. Users can copy hex codes and explore different color schemes. Built with asynchronous JavaScript and API integration.
+### 2. **Real Time Digital Clock and Weather App**
+This real time digital clock website can be set as an aesthetic background. This website is also useful to search for a current weather forecast in any city in the world.
+
+### 3. **Drum Kit and Tambourine Sound Board**
+This sound board is helpful as you can listen and experience the different sounds of these two instruments. You can either click the buttons or use your keyboard to play the sounds.
+
+### 4. **Journal Entry Website**
+This website is useful to anyone who needs a place to write down any thoughts, notes, or just random things and want to save it in a safe place. It’s great for any use for work, school, or personal.
 
 ## Links
 
