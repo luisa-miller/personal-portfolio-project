@@ -1,4 +1,4 @@
-# Luisa Miller – Final Project - Personal Portfolio
+# Luisa M – Final Project - Personal Portfolio
 
 Welcome! I'm **Luisa Miller**, a student developer passionate about designing clean, accessible, and interactive web experiences. I enjoy turning creative ideas into functional code and am always exploring new tools and techniques to grow as a developer.
 
