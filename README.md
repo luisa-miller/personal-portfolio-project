@@ -16,7 +16,7 @@ This site serves as a central hub for my web development work. It highlights the
 This website can help you remember to complete important tasks, making your day to day life organized and easier. Simply add as many tasks as needed to your list. Some highlights in this project has local storage use and interactive UI updates.
 
 ### 2. **Real Time Digital Clock and Weather App**
-This real time digital clock website can be set as an aesthetic background. This website is also useful to search for a current weather forecast in any city in the world. A highlight in this project includes the time pdating to anytimezone you may be in.
+This real time digital clock website can be set as an aesthetic background. This website is also useful to search for a current weather forecast in any city in the world. A highlight in this project includes the time updating to anytimezone you may be in.
 
 ### 3. **Drum Kit and Tambourine Sound Board**
 This sound board is helpful as you can listen and experience the different sounds of these two instruments. A highlight in this project includes the sounds playing from pressing the keys on the keyboard or clicking the buttons. 
