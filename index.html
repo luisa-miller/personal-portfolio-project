@@ -84,15 +84,6 @@ section {
   margin-bottom: 1rem;
 }
 
-footer {
-  text-align: center;
-  padding: 1.5rem;
-  background: #354f52;
-  color: white;
-  margin-top: 3rem;
-  border-top: 4px solid #52796f;
-}
-
 @media (max-width: 600px) {
   section {
     padding: 1rem;
@@ -135,6 +126,106 @@ footer {
   text-align: left;
   padding-left: 0.5rem;
   padding-top: 1rem;
+}
+ 
+ #footer {
+  margin-top: auto;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.email-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.email-tooltip img {
+  width: 40px;
+  height: 40px;
+  filter: drop-shadow(0 2px 5px rgba(0,0,0,0.2));
+  transition: transform 0.2s ease;
+}
+
+.email-tooltip:hover img {
+  transform: scale(1.1);
+  filter: drop-shadow(0 4px 10px rgba(0,0,0,0.3));
+}
+
+.tooltip-text {
+  visibility: hidden;
+  width: max-content;
+  background-color: #2f3e46;
+  color: #fff;
+  text-align: center;
+  padding: 6px 10px;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 0%; /* Position above the icon */
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.email-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+#footer {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.icon-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.icon-tooltip img {
+  width: 40px;
+  height: 40px;
+  filter: drop-shadow(0 2px 5px rgba(0,0,0,0.2));
+  transition: transform 0.2s ease;
+}
+
+.icon-tooltip:hover img {
+  transform: scale(1.1);
+  filter: drop-shadow(0 4px 10px rgba(0,0,0,0.3));
+}
+
+.tooltip-text {
+  visibility: hidden;
+  width: max-content;
+  background-color: #2f3e46;
+  color: #fff;
+  text-align: center;
+  padding: 6px 10px;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 130%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.icon-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
 }
 </style>
 
