@@ -4,7 +4,62 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Sound Board</title>
-  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+  background-image: url(https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bXVzaWMlMjBzdHVkaW98ZW58MHx8MHx8fDA%3D);
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+}
+
+#soundBoard-container {
+  background: rgba(202, 210, 197, 0.4); /* cad2c5 with transparency */
+  max-width: 400px;
+  width: 100%;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  border: 4px solid rgba(132, 169, 140, 0.2); /* subtle green border */
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h2 {
+  color: #2f3e46;
+  margin: 10px;
+  font-size: 40px;
+}
+
+h3 {
+  color: #52796f;
+  margin: 15px;
+  font-size: 25px;
+}
+
+button {
+  background: #354f52;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 30px;
+  width: 170px;
+  font-size: 22px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: 0.4s;
+  padding: 5px;
+}
+
+button:hover {
+  background: #84a98c;
+  transform: translateY(-5px);
+}
+  </style>
 </head>
 <body>
   <div id="soundBoard-container">
